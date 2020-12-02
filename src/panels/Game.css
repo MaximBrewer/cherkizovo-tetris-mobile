@@ -11,13 +11,15 @@
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  padding: 3.5rem 1.25rem;
+  padding: 4.5rem 1.25rem 3rem;
 }
 .Game .Div--ios {
   padding: 0;
 }
 .Game h4 {
   margin: 0 0 0.25rem 0;
+  text-align: left;
+  margin-left: 40%;
 }
 .Game h5 {
   margin: 0 0 0.25rem 0;
