@@ -192,12 +192,15 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 												</div>
 											</Div>
 											<div style={{
-												backgroundPosition: "center",
-												backgroundSize: "contain",
-												backgroundImage: 'url(' + canavsBg + ')',
-												marginBottom: "2rem"
+												display: "flex",
+												justifyContent: "center"
 											}}>
-												<div>
+												<div style={{
+													backgroundPosition: "center",
+													backgroundSize: "contain",
+													backgroundImage: 'url(' + canavsBg + ')',
+													marginBottom: "2rem"
+												}}>
 													{/* <HeldPiece /> */}
 													<Gameboard />
 													{/* <PieceQueue /> */}
