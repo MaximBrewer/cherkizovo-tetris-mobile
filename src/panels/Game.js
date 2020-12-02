@@ -178,7 +178,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 					<Div className='Game' style={{ textAlign: "center", backgroundImage: 'url(' + bg + ')', color: "#ffffff" }} >
 						<Div>
 							<h4>Миссия: <br /> накрой праздничный стол с Черкизово!</h4>
-							<p>Набери больше всех баллов и&nbsp;получи крутые призы!</p>
+							{/* <p>Набери больше всех баллов и&nbsp;получи крутые призы!</p> */}
 						</Div>
 						<Tetris>
 							{({ HeldPiece, Gameboard, PieceQueue, points, linesCleared }) => {
