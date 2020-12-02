@@ -20,7 +20,7 @@ window.audioMusic = new Audio(musicMp3);
 window.audioMusic.loop = true;
 
 ReactDOM.render(<App />, document.getElementById("root"));
-if (false && process.env.NODE_ENV === "development") {
+if (process.env.NODE_ENV === "development") {
   import("./eruda").then(({ default: eruda }) => { }); //runtime download
 }
 
