@@ -159,7 +159,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 			GameStore.forceStart()
 			window.audioMusic.play()
 		} else {
-			window.audioMusic.stop()
+			window.audioMusic.pause()
 		}
 	}, [activePanel])
 
