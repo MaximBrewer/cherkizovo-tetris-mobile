@@ -12,8 +12,10 @@ import musicMp3 from './sounds/music.mp3';
 // Init VK  Mini App
 bridge.send("VKWebAppInit");
 
+window.woopMusic = new Audio(woopMp3);
+
 window.woop = () => {
-  new Audio(woopMp3).play();
+  window.woopMusic.play();
 }
 
 window.audioMusic = new Audio(musicMp3);
