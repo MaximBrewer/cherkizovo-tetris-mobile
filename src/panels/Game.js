@@ -57,7 +57,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 	}
 
 	const switchSound = () => {
-		window.audioMusic.volume == 1 ? window.audioMusic.volume = 0 : window.audioMusic.volume = 1;
+		window.audioMusic.paused() ? window.audioMusic.play() : window.audioMusic.pause();
 	}
 
 	function renderView({ style, ...props }) {
