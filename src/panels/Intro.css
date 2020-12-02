@@ -1,11 +1,11 @@
-.Intro *{
+.Intro * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .Intro {
   display: block;
   width: 100%;
-  height:568px;
+  height: 568px;
   margin: 0;
   box-sizing: border-box;
   background-size: contain;
@@ -28,4 +28,10 @@
 .Intro p {
   margin: 0 0 0.5rem 0;
   font-size: 0.875rem;
+}
+
+@media (orientation: landscape) {
+  .Intro {
+    display: none;
+  }
 }
