@@ -155,8 +155,12 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 	}, [])
 
 	useEffect(() => {
-		activePanel === 'game' && GameStore.forceStart()
-		window.audioMusic.play()
+		if (activePanel === 'game') {
+			GameStore.forceStart()
+			window.audioMusic.play()
+		} else {
+			window.audioMusic.stop()
+		}
 	}, [activePanel])
 
 	BoardStore.on(events.LINE_CLEARED, (additionalLines) => {
