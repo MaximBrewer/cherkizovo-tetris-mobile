@@ -20,7 +20,7 @@ const axios = require('axios');
 Pusher.logToConsole = true;
 
 const pusher = new Pusher('527099ad7df4062c0694', {
-  cluster: 'eu'
+	cluster: 'eu'
 });
 
 const channel = pusher.subscribe('cherkizovo');
@@ -180,19 +180,22 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 										<Div>
 											<Div className={`score`}>
 												<p>Ваш счет:</p>
-												<p className={`numbers`}>
-													{pad(ScoreStore.getPoints()).map((item, index) => (
-														<span key={index}>{item}</span>
-													))}
-												</p>
-												<div className={`control-button sound`} onClick={switchSound}>
-													<div><Sound style={{ display: "block", width: "100%" }} /></div>
+												<div style={{display: "flex"}}>
+													<p className={`numbers`}>
+														{pad(ScoreStore.getPoints()).map((item, index) => (
+															<span key={index}>{item}</span>
+														))}
+													</p>
+													<div className={`control-button sound`} onClick={switchSound}>
+														<div><Sound style={{ display: "block", width: "100%" }} /></div>
+													</div>
 												</div>
 											</Div>
 											<div style={{
 												backgroundPosition: "center",
 												backgroundSize: "contain",
-												backgroundImage: 'url(' + canavsBg + ')'
+												backgroundImage: 'url(' + canavsBg + ')',
+												marginBottom: "2rem"
 											}}>
 												<div>
 													{/* <HeldPiece /> */}
