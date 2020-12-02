@@ -178,7 +178,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 								return (
 									<Div>
 										<Div>
-											<Div className={`score`}>
+											<Div className={`score`} style={{ marginBottom: ".5rem" }}>
 												<p>Ваш счет:</p>
 												<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 													<p className={`numbers`}>

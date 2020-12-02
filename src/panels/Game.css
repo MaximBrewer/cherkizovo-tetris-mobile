@@ -230,8 +230,8 @@ table.game-board {
 }
 
 .Game .control-button.sound {
-  width: 16%;
-  margin-left: 1rem;
+  width: 14%;
+  margin-left: 0.5rem;
   border-radius: 50%;
   background: #2d49df;
   border: 2px solid #ffffff;
