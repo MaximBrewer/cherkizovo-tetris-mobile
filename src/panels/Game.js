@@ -56,10 +56,6 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 		return s.join(dec);
 	}
 
-	const switchSound = () => {
-		window.audioMusic.paused ? window.audioMusic.play() : window.audioMusic.pause();
-	}
-
 	function renderView({ style, ...props }) {
 		const viewStyle = {
 			paddingRight: 14
@@ -144,6 +140,11 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 
 	const [scores, setScores] = useState([]);
 	const [paused, setPaused] = useState(false);
+
+	const switchSound = () => {
+		window.audioMusic.paused ? window.audioMusic.play() : window.audioMusic.pause();
+		setPaused(window.audioMusic.paused)
+	}
 
 	useEffect(() => {
 		axios.get('https://cherkizovo.fun/api/scores')
