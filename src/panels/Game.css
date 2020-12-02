@@ -64,11 +64,6 @@ table.game-board {
   border-collapse: collapse;
   border-spacing: 0;
   margin: 0 auto;
-    background-position: center;
-    background-size: contain;
-    background-image: url(' + canavsBg + '),
-    marginBottom: "2rem"
-  }}
 }
 
 .game-block.type-1 {
