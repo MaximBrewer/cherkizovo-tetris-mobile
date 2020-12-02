@@ -19,7 +19,7 @@ const keyboardMap = {
   space: AppActions.hardDrop,
   // z: AppActions.flipCounterclockwise,
   // x: AppActions.flipClockwise,
-  top: AppActions.flipClockwise,
+  up: AppActions.flipClockwise,
   // s: AppActions.flipClockwise,
   // p: () => {
   //   if (GameStore.getCurrentState() === states.PLAYING) {
