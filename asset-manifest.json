@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/cherkizovo-tetris-mobile/static/css/main.d3afd78a.chunk.css",
+    "main.js": "/cherkizovo-tetris-mobile/static/js/main.aaf9190c.chunk.js",
+    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.aaf9190c.chunk.js.map",
+    "runtime-main.js": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js",
+    "runtime-main.js.map": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js.map",
+    "static/css/2.cdee455b.chunk.css": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css",
+    "static/js/2.8dbc3da9.chunk.js": "/cherkizovo-tetris-mobile/static/js/2.8dbc3da9.chunk.js",
+    "static/js/2.8dbc3da9.chunk.js.map": "/cherkizovo-tetris-mobile/static/js/2.8dbc3da9.chunk.js.map",
+    "index.html": "/cherkizovo-tetris-mobile/index.html",
+    "precache-manifest.a59a2e75fbb6a4288fe0d1d6871408f4.js": "/cherkizovo-tetris-mobile/precache-manifest.a59a2e75fbb6a4288fe0d1d6871408f4.js",
+    "service-worker.js": "/cherkizovo-tetris-mobile/service-worker.js",
+    "static/css/2.cdee455b.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css.map",
+    "static/css/main.d3afd78a.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.d3afd78a.chunk.css.map",
+    "static/js/2.8dbc3da9.chunk.js.LICENSE.txt": "/cherkizovo-tetris-mobile/static/js/2.8dbc3da9.chunk.js.LICENSE.txt",
+    "static/media/canvas-bg.png": "/cherkizovo-tetris-mobile/static/media/canvas-bg.06e2c93f.png",
+    "static/media/game-bg.jpg": "/cherkizovo-tetris-mobile/static/media/game-bg.1a5dfd38.jpg",
+    "static/media/intro-bg.jpg": "/cherkizovo-tetris-mobile/static/media/intro-bg.e4f61210.jpg",
+    "static/media/logo-white.png": "/cherkizovo-tetris-mobile/static/media/logo-white.19fa04fb.png",
+    "static/media/music.mp3": "/cherkizovo-tetris-mobile/static/media/music.18ca30f9.mp3",
+    "static/media/woop.mp3": "/cherkizovo-tetris-mobile/static/media/woop.e3c35f09.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44675682.js",
+    "static/css/2.cdee455b.chunk.css",
+    "static/js/2.8dbc3da9.chunk.js",
+    "static/css/main.d3afd78a.chunk.css",
+    "static/js/main.aaf9190c.chunk.js"
+  ]
+}
