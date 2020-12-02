@@ -2,16 +2,18 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-.Intro {
+.Intro > div {
   display: block;
   width: 100%;
   max-width: 500px;
   margin: 0;
+  padding: 0;
+}
+.Intro > div {
   box-sizing: border-box;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 0;
 }
 .Intro .Div--ios {
   padding: 0;
