@@ -25,9 +25,7 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 									<h2><img src={logo} alt="" style={{ width: "12rem" }} /></h2>
 									<h3>Миссия: <br /> накрой праздничный<br /> стол с&nbsp;Черкизово!</h3>
 									<p>Набери больше всех баллов <br />и&nbsp;получи крутые призы!</p>
-									<p>&nbsp;</p>
 									<p><img src={galkin} alt="Максим Галкин" style={{ maxWidth: "20rem", width: "70%" }} /></p>
-									<p>&nbsp;</p>
 									<p><button className={`btn-red`} onClick={() => go(route)}>Играть</button></p>
 								</Div>
 							</div>
