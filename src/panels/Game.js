@@ -180,7 +180,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 										<Div>
 											<Div className={`score`}>
 												<p>Ваш счет:</p>
-												<div style={{display: "flex"}}>
+												<div style={{ display: "flex", alignItems="center" }}>
 													<p className={`numbers`}>
 														{pad(ScoreStore.getPoints()).map((item, index) => (
 															<span key={index}>{item}</span>
