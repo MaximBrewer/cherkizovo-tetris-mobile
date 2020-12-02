@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cherkizovo-tetris-mobile/static/css/main.902e82e3.chunk.css",
-    "main.js": "/cherkizovo-tetris-mobile/static/js/main.77ec930a.chunk.js",
-    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.77ec930a.chunk.js.map",
+    "main.css": "/cherkizovo-tetris-mobile/static/css/main.d2302e7f.chunk.css",
+    "main.js": "/cherkizovo-tetris-mobile/static/js/main.7f917a8a.chunk.js",
+    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.7f917a8a.chunk.js.map",
     "runtime-main.js": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js",
     "runtime-main.js.map": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js.map",
     "static/css/2.cdee455b.chunk.css": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css",
     "static/js/2.f1f6b46f.chunk.js": "/cherkizovo-tetris-mobile/static/js/2.f1f6b46f.chunk.js",
     "static/js/2.f1f6b46f.chunk.js.map": "/cherkizovo-tetris-mobile/static/js/2.f1f6b46f.chunk.js.map",
     "index.html": "/cherkizovo-tetris-mobile/index.html",
-    "precache-manifest.a73cbf52f3d6b2f7fbc3db7fb2e34c2f.js": "/cherkizovo-tetris-mobile/precache-manifest.a73cbf52f3d6b2f7fbc3db7fb2e34c2f.js",
+    "precache-manifest.cb1fe0372905b97f9d4880e65e498fce.js": "/cherkizovo-tetris-mobile/precache-manifest.cb1fe0372905b97f9d4880e65e498fce.js",
     "service-worker.js": "/cherkizovo-tetris-mobile/service-worker.js",
     "static/css/2.cdee455b.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css.map",
-    "static/css/main.902e82e3.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.902e82e3.chunk.css.map",
+    "static/css/main.d2302e7f.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.d2302e7f.chunk.css.map",
     "static/js/2.f1f6b46f.chunk.js.LICENSE.txt": "/cherkizovo-tetris-mobile/static/js/2.f1f6b46f.chunk.js.LICENSE.txt",
     "static/media/canvas-bg.png": "/cherkizovo-tetris-mobile/static/media/canvas-bg.1c817dd6.png",
     "static/media/game-bg.jpg": "/cherkizovo-tetris-mobile/static/media/game-bg.09d22d2a.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.44675682.js",
     "static/css/2.cdee455b.chunk.css",
     "static/js/2.f1f6b46f.chunk.js",
-    "static/css/main.902e82e3.chunk.css",
-    "static/js/main.77ec930a.chunk.js"
+    "static/css/main.d2302e7f.chunk.css",
+    "static/js/main.7f917a8a.chunk.js"
   ]
 }
