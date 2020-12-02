@@ -193,8 +193,8 @@ table.game-board {
 .Game .control-button {
   width: 20%;
   border-radius: 50%;
-  background: #7B0708;
-  border: 2px solid #FFFFFF;
+  background: #7b0708;
+  border: 2px solid #ffffff;
 }
 .Game .control-button > div {
   padding-top: 100%;
@@ -230,10 +230,11 @@ table.game-board {
 }
 
 .Game .control-button.sound {
-  width: 20%;
+  width: 16%;
+  margin-left: 1rem;
   border-radius: 50%;
-  background: #2D49DF;
-  border: 2px solid #FFFFFF;
+  background: #2d49df;
+  border: 2px solid #ffffff;
 }
 .Game .control-button.sound > div {
   padding-top: 100%;
