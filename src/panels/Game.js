@@ -143,6 +143,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 	});
 
 	const [scores, setScores] = useState([]);
+	const [paused, setPaused] = useState(false);
 
 	useEffect(() => {
 		axios.get('https://cherkizovo.fun/api/scores')
@@ -152,6 +153,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 			.catch(function (error) {
 				// console.log(error);
 			});
+		setPaused(window.audioMusic.paused)
 	}, [])
 
 	useEffect(() => {
@@ -161,6 +163,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 		} else {
 			window.audioMusic.pause()
 		}
+		setPaused(window.audioMusic.paused)
 	}, [activePanel])
 
 	BoardStore.on(events.LINE_CLEARED, (additionalLines) => {
@@ -190,7 +193,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 															<span key={index}>{item}</span>
 														))}
 													</p>
-													<div className={`control-button sound`} onClick={switchSound}>
+													<div className={`control-button sound ${paused ? 'paused' : ''}`} onClick={switchSound}>
 														<div><Sound style={{ display: "block", width: "100%" }} /></div>
 													</div>
 												</div>
