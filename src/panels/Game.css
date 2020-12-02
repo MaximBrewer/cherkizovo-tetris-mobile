@@ -237,6 +237,18 @@ table.game-board {
   border-radius: 50%;
   background: #2d49df;
   border: 2px solid #ffffff;
+  position: relative;
+}
+.Game .control-button.sound.paused:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 150%;
+  left: -25%;
+  transform: rotate(45deg);
+  height: 2px;
+  background-color: #ffffff;
 }
 .Game .control-button.sound > div {
   padding-top: 100%;
