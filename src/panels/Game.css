@@ -236,8 +236,10 @@ table.game-board {
   margin-left: 0.5rem;
   border-radius: 50%;
   background: #2d49df;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
+  margin-top: -2px;
   position: relative;
+  overflow: hidden;
 }
 .Game .control-button.sound.paused:after {
   content: "";
