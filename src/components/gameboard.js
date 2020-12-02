@@ -1,10 +1,6 @@
 import React from 'react';
-import key from 'keymaster';
 import AppActions from '../actions/app-actions';
 import GameStore from '../stores/game-store';
-// import AppConstants from '../constants/app-constants';
-
-// const { states } = AppConstants;
 
 function gameBoard() {
   return {
@@ -12,43 +8,41 @@ function gameBoard() {
   };
 }
 
-const keyboardMap = {
-  // x: AppActions.moveDown,
-  left: AppActions.moveLeft,
-  right: AppActions.moveRight,
-  space: AppActions.hardDrop,
-  // z: AppActions.flipCounterclockwise,
-  // x: AppActions.flipClockwise,
-  up: AppActions.flipClockwise,
-  // s: AppActions.flipClockwise,
-  // p: () => {
-  //   if (GameStore.getCurrentState() === states.PLAYING) {
-  //     AppActions.pause();
-  //   } else {
-  //     AppActions.resume();
-  //   }
-  // },
-  // c: AppActions.hold,
-  // shift: AppActions.hold
-};
+const watchKeys = (e) => {
+  if (e.isComposing || e.keyCode === 229) {
+    return;
+  }
+  switch (e.keyCode) {
+    case 32:
+      AppActions.hardDrop()
+      e.preventDefault();
+      break;
+    case 37:
+      AppActions.moveLeft()
+      e.preventDefault();
+      break;
+    case 38:
+      AppActions.flipClockwise()
+      e.preventDefault();
+      break;
+    case 39:
+      AppActions.moveRight()
+      e.preventDefault();
+      break;
+    case 40:
+      AppActions.moveDown()
+      e.preventDefault();
+      break;
+    default:
+      break;
+  }
+}
 
 function addKeyboardEvents() {
-  Object.keys(keyboardMap).forEach((k) => {
-    // if (k === 'shift') {
-    //   DetectShift.bind(keyboardMap[k]);
-    // } else {
-      key(k, keyboardMap[k]);
-    // }
-  });
+  window.addEventListener('keydown', watchKeys)
 }
 function removeKeyboardEvents() {
-  Object.keys(keyboardMap).forEach((k) => {
-    // if (k === 'shift') {
-    //   DetectShift.unbind(keyboardMap[k]);
-    // } else {
-      key.unbind(k);
-    // }
-  });
+  window.removeEventListener('keydown', watchKeys)
 }
 
 export default class Gameboard extends React.Component {
