@@ -236,8 +236,7 @@ table.game-board {
   margin-left: 0.5rem;
   border-radius: 50%;
   background: #2d49df;
-  border: 3px solid #ffffff;
-  margin-top: -2px;
+  border: 2px solid #ffffff;
   position: relative;
   overflow: hidden;
 }
@@ -249,7 +248,8 @@ table.game-board {
   width: 150%;
   left: -25%;
   transform: rotate(45deg);
-  height: 2px;
+  height: 3px;
+  margin-top: -2px;
   background-color: #ffffff;
 }
 .Game .control-button.sound > div {
