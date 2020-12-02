@@ -169,16 +169,26 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 			{fetchedUser &&
 				<Fragment>
 					<Div className='Game' style={{ textAlign: "center", backgroundImage: 'url(' + bg + ')', color: "#ffffff" }} >
-						<Div style={{ paddingLeft: "1rem" }}>
+						<Div>
 							<h4>Миссия: <br /> накрой праздничный стол с Черкизово!</h4>
 							<p>Набери больше всех баллов и&nbsp;получи крутые призы!</p>
 						</Div>
 						<Tetris>
 							{({ HeldPiece, Gameboard, PieceQueue, points, linesCleared }) => {
 								return (
-									<Div style={{ display: "flex", justifyContent: "center" }}>
-										<Div style={{ width: "32%", justifyContent: "center" }}>1</Div>
-										<Div style={{ width: "38%", justifyContent: "center" }}>
+									<Div>
+										<Div>
+											<Div className={`score`}>
+												<p>Ваш счет:</p>
+												<p className={`numbers`}>
+													{pad(ScoreStore.getPoints()).map((item, index) => (
+														<span key={index}>{item}</span>
+													))}
+												</p>
+												<div className={`control-button sound`} onClick={switchSound}>
+													<div><Sound style={{ display: "block", width: "100%" }} /></div>
+												</div>
+											</Div>
 											<div style={{
 												backgroundPosition: "center",
 												backgroundSize: "contain",
@@ -190,35 +200,6 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 													{/* <PieceQueue /> */}
 												</div>
 											</div>
-										</Div>
-										<Div style={{ width: "30%", justifyContent: "center", padding: "0 1rem 0 2rem" }}>
-											<Div className={`score`}>
-												<p>Ваш счет:</p>
-												<p className={`numbers`}>
-													{pad(ScoreStore.getPoints()).map((item, index) => (
-														<span key={index}>{item}</span>
-													))}
-												</p>
-											</Div>
-											<p>Лучшие игроки</p>
-											<Div className={`scores`}>
-												<Scrollbars style={{ height: 128 }}
-													renderView={renderView}
-													renderThumbHorizontal={renderThumbHorizontal}
-													renderThumbVertical={renderThumbVertical}
-													renderTrackHorizontal={renderTrackHorizontal}
-													renderTrackVertical={renderTrackVertical}
-													mobile={true}
-												>
-													<div style={{ paddingRight: "10px" }}>
-														<ol>
-															{scores.map((item, index) => (
-																<li>{item.name}: <strong>{number_format(item.score, 0, '.', ' ')}</strong></li>
-															))}
-														</ol>
-													</div>
-												</Scrollbars>
-											</Div>
 											<Div style={{
 												background: "#AA2223",
 												border: "2px solid #FFFFFF",
@@ -243,14 +224,24 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 													</div>
 												</Div>
 											</Div>
-											<Div style={{
-												display: "flex",
-												justifyContent: "center",
-												alignItems: "center"
-											}}>
-												<div className={`control-button sound`} onClick={switchSound}>
-													<div><Sound style={{ display: "block", width: "100%" }} /></div>
-												</div>
+											<p>Лучшие игроки</p>
+											<Div className={`scores`}>
+												<Scrollbars style={{ height: 128 }}
+													renderView={renderView}
+													renderThumbHorizontal={renderThumbHorizontal}
+													renderThumbVertical={renderThumbVertical}
+													renderTrackHorizontal={renderTrackHorizontal}
+													renderTrackVertical={renderTrackVertical}
+													mobile={true}
+												>
+													<div style={{ paddingRight: "10px" }}>
+														<ol>
+															{scores.map((item, index) => (
+																<li>{item.name}: <strong>{number_format(item.score, 0, '.', ' ')}</strong></li>
+															))}
+														</ol>
+													</div>
+												</Scrollbars>
 											</Div>
 										</Div>
 									</Div>
