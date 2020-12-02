@@ -5,7 +5,6 @@
 .Intro {
   display: block;
   width: 100%;
-  max-width: 500px;
   margin: 0;
   padding: 0;
   padding-top: 216%;
@@ -15,7 +14,7 @@
 .Intro > div {
   box-sizing: border-box;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   text-align: center;
   height: 100%;

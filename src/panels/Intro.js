@@ -15,7 +15,11 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 					<div style={{ maxHeight: "100vh", overflow: "hidden" }}>
 						<Div className='Intro'>
 							<div style={{ backgroundImage: 'url(' + bg + ')' }}>
-								<Div style={{ minHeight: "70%", color: "#ffffff" }}>
+								<Div style={{
+									color: "#ffffff",
+									marginBottom: "10%", 
+									maxWidth: "80%"
+								}}>
 									<h2>Новый год с</h2>
 									<h2><img src={logo} alt="" style={{ width: "12rem" }} /></h2>
 									<h3>Миссия: <br /> накрой праздничный стол с&nbsp;Черкизово!</h3>
