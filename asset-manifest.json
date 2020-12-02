@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cherkizovo-tetris-mobile/static/css/main.96a475d9.chunk.css",
-    "main.js": "/cherkizovo-tetris-mobile/static/js/main.0705b6b3.chunk.js",
-    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.0705b6b3.chunk.js.map",
+    "main.js": "/cherkizovo-tetris-mobile/static/js/main.d2d56e99.chunk.js",
+    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.d2d56e99.chunk.js.map",
     "runtime-main.js": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js",
     "runtime-main.js.map": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js.map",
     "static/css/2.cdee455b.chunk.css": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css",
     "static/js/2.f1f6b46f.chunk.js": "/cherkizovo-tetris-mobile/static/js/2.f1f6b46f.chunk.js",
     "static/js/2.f1f6b46f.chunk.js.map": "/cherkizovo-tetris-mobile/static/js/2.f1f6b46f.chunk.js.map",
     "index.html": "/cherkizovo-tetris-mobile/index.html",
-    "precache-manifest.34652a6573ff2214d1392b02b390dad7.js": "/cherkizovo-tetris-mobile/precache-manifest.34652a6573ff2214d1392b02b390dad7.js",
+    "precache-manifest.094763febe4e036a482bd2f9803d2654.js": "/cherkizovo-tetris-mobile/precache-manifest.094763febe4e036a482bd2f9803d2654.js",
     "service-worker.js": "/cherkizovo-tetris-mobile/service-worker.js",
     "static/css/2.cdee455b.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css.map",
     "static/css/main.96a475d9.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.96a475d9.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.cdee455b.chunk.css",
     "static/js/2.f1f6b46f.chunk.js",
     "static/css/main.96a475d9.chunk.css",
-    "static/js/main.0705b6b3.chunk.js"
+    "static/js/main.d2d56e99.chunk.js"
   ]
 }
