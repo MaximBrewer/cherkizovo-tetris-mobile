@@ -2,7 +2,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-.Intro > div {
+.Intro {
   display: block;
   width: 100%;
   max-width: 500px;
