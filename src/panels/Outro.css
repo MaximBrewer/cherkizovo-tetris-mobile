@@ -4,14 +4,28 @@
 }
 .Outro {
   display: block;
-  width: 800px;
-  height: 568px;
+  width: 100%;
   margin: 0;
-  box-sizing: border-box;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 0;
+  padding-top: 216%;
+  position: relative;
+  max-height: 100vh;
+}
+.Outro > div {
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-height: 100vh;
 }
 .Outro .Div--ios {
   padding: 0;

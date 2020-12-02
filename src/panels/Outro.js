@@ -38,26 +38,32 @@ const Outro = ({ id, route, fetchedUser, go, bridge, activePanel }) => {
 		<Panel id={id}>
 			{fetchedUser &&
 				<Fragment>
-					<Div className='Outro' style={{ textAlign: "center", backgroundImage: 'url(' + bg + ')', display: "flex", justifyContent: "center", alignItems: "center" }} >
-						{/* {fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200} /> : null}
-					<h2>Привет, {fetchedUser.first_name}</h2> */}
-						<Div style={{ minHeight: "80%", color: "#ffffff" }}>
-							<h2>Новый год с</h2>
-							<h2><img src={logo} alt="" style={{ width: "12rem" }} /></h2>
-							<h3>Миссия: <br /> накрой праздничный стол с&nbsp;Черкизово!</h3>
-							<p>Ваш счет:</p>
-							<p className={`numbers`}>
-								{pad(ScoreStore.getPoints()).map((item, index) => (
-									<span key={index}>{item}</span>
-								))}
-							</p>
-							<p>&nbsp;</p>
-							<p>
-								<button className={`btn-red`} onClick={() => go(route)}>Сыграть еще раз</button>&nbsp;&nbsp;
-								<button className={`btn-blue`} onClick={() => replay()}>Рассказать друзьям</button>
-							</p>
+					<div style={{ maxHeight: "100vh", overflow: "hidden" }}>
+						<Div className='Outro'>
+							<div style={{ backgroundImage: 'url(' + bg + ')' }}>
+								<Div style={{
+									color: "#ffffff",
+									marginBottom: "10%",
+									maxWidth: "80%"
+								}}>
+									<h2>Новый год с</h2>
+									<h2><img src={logo} alt="" style={{ width: "12rem" }} /></h2>
+									<h3>Миссия: <br /> накрой праздничный стол с&nbsp;Черкизово!</h3>
+									<p>Ваш счет:</p>
+									<p className={`numbers`}>
+										{pad(ScoreStore.getPoints()).map((item, index) => (
+											<span key={index}>{item}</span>
+										))}
+									</p>
+									<p>&nbsp;</p>
+									<p>
+										<button className={`btn-red`} onClick={() => go(route)}>Сыграть еще раз</button>
+										&nbsp;&nbsp;<button className={`btn-blue`} onClick={() => replay()}>Рассказать друзьям</button>
+									</p>
+								</Div>
+							</div>
 						</Div>
-					</Div>
+					</div>
 				</Fragment>
 			}
 		</Panel>
