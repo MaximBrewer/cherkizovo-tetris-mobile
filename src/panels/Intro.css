@@ -8,12 +8,25 @@
   max-width: 500px;
   margin: 0;
   padding: 0;
+  padding-top: 216%;
+  position: relative;
+  max-height: 100vh;
 }
 .Intro > div {
   box-sizing: border-box;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-height: 100vh;
 }
 .Intro .Div--ios {
   padding: 0;

@@ -12,8 +12,8 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 		<Panel id={id}>
 			{fetchedUser &&
 				<Fragment>
-					<Div className='Intro' style={{ paddingTop: "216%", position: "relative" }} >
-						<div style={{ textAlign: "center", backgroundImage: 'url(' + bg + ')', height: "100%", width: "100%", position: "absolute", top: 0, left: 0, justifyContent: "center", alignItems: "center", display: "flex" }}>
+					<Div className='Intro' >
+						<div style={{ backgroundImage: 'url(' + bg + ')' }}>
 							<Div style={{ minHeight: "70%", color: "#ffffff" }}>
 								<h2>Новый год с</h2>
 								<h2><img src={logo} alt="" style={{ width: "12rem" }} /></h2>
