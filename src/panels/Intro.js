@@ -6,7 +6,6 @@ import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import './Intro.css';
 import bg from '../img/intro-bg.jpg';
 import logo from '../img/logo-white.png';
-import rotateDevice from '../img/rotate-device.svg';
 import galkin from '../img/galkin.png';
 
 const Intro = ({ id, go, route, fetchedUser }) => {

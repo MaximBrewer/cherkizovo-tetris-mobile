@@ -7,7 +7,6 @@ import ScoreStore from '../stores/score-store';
 import './Outro.css';
 import bg from '../img/intro-bg.jpg';
 import logo from '../img/logo-white.png';
-import rotateDevice from '../img/rotate-device.svg';
 
 const axios = require('axios');
 

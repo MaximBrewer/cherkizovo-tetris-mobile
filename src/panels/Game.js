@@ -17,7 +17,6 @@ import './Game.css';
 import bg from '../img/game-bg.jpg';
 import logo from '../img/logo-white.png';
 import canavsBg from '../img/canvas-bg.png';
-import rotateDevice from '../img/rotate-device.svg';
 
 const axios = require('axios');
 
