@@ -37,7 +37,7 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 											transform: "rotate(-5.95deg)",
 											position: "relative"
 										}}>Попробуй набрать больше баллов,<br />чем Максим Галкин</div>
-										<img src={galkin} alt="Максим Галкин" style={{ display: "block", margin: "0 auto", maxWidth: "20rem", width: "70%", position: "relative", zIndex: 1, top: "-1rem" }} />
+										<img src={galkin} alt="Максим Галкин" style={{ display: "block", margin: "0 auto", maxWidth: "20rem", width: "80%", position: "relative", zIndex: 1, top: "-1rem" }} />
 									</div>
 									<p><button className={`btn-red`} onClick={() => go(route)}>Играть</button></p>
 								</Div>
