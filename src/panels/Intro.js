@@ -38,6 +38,7 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 											background: "#AA2223",
 											border: "2px solid #FFFFFF",
 											borderRadius: "3px",
+											fontWeight: "bold",
 											display: "inline-block",
 											padding: "0.2rem .4rem",
 											margin: "1.5rem auto .3rem",
