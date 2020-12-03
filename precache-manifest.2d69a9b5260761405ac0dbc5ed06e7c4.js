@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "588526be8f0abe71c092ffea499d1bd8",
+    "revision": "49b8f0d0b923d6627ea5f80119d982b1",
     "url": "/cherkizovo-tetris-mobile/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css"
   },
   {
-    "revision": "b10f5ee0f2bf419c8ad2",
+    "revision": "cd42b9fe79a1960dbb9e",
     "url": "/cherkizovo-tetris-mobile/static/css/main.71aa7ebf.chunk.css"
   },
   {
@@ -20,32 +20,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cherkizovo-tetris-mobile/static/js/2.43be7aa2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b10f5ee0f2bf419c8ad2",
-    "url": "/cherkizovo-tetris-mobile/static/js/main.bd4b1327.chunk.js"
+    "revision": "cd42b9fe79a1960dbb9e",
+    "url": "/cherkizovo-tetris-mobile/static/js/main.bbd797fa.chunk.js"
   },
   {
     "revision": "1a9787e7ec2b1e994931",
     "url": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js"
   },
   {
-    "revision": "1c817dd6c6378a1b2980afafc92552ac",
-    "url": "/cherkizovo-tetris-mobile/static/media/canvas-bg.1c817dd6.png"
+    "revision": "a1b5d90d5cbf9e61858ae11456099f98",
+    "url": "/cherkizovo-tetris-mobile/static/media/canvas-bg.a1b5d90d.png"
   },
   {
-    "revision": "4ff3dbd8fbfc413a4b203d45f15155a4",
-    "url": "/cherkizovo-tetris-mobile/static/media/galkin.4ff3dbd8.png"
+    "revision": "db851294a51355cf76a61486adcc0f78",
+    "url": "/cherkizovo-tetris-mobile/static/media/galkin.db851294.png"
   },
   {
-    "revision": "09d22d2a000d21824b54e3ca7d88c44c",
-    "url": "/cherkizovo-tetris-mobile/static/media/game-bg.09d22d2a.jpg"
+    "revision": "1e3a357cc37fa5a248197e5dbb92a257",
+    "url": "/cherkizovo-tetris-mobile/static/media/game-bg.1e3a357c.jpg"
   },
   {
-    "revision": "814430f7f0789b73f6c68da0ff30c6f7",
-    "url": "/cherkizovo-tetris-mobile/static/media/intro-bg.814430f7.jpg"
+    "revision": "4ba1e84e511f4513593deef442239861",
+    "url": "/cherkizovo-tetris-mobile/static/media/intro-bg.4ba1e84e.jpg"
   },
   {
-    "revision": "19fa04fb4f758f2488d1c67b3671a20b",
-    "url": "/cherkizovo-tetris-mobile/static/media/logo-white.19fa04fb.png"
+    "revision": "858e55bbde8052c57f8498c860fee6f0",
+    "url": "/cherkizovo-tetris-mobile/static/media/logo-white.858e55bb.png"
   },
   {
     "revision": "18ca30f90316094026291f079957e3cc",
