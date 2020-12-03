@@ -178,6 +178,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 				<Fragment>
 					<Div className='Game' style={{ textAlign: "center", backgroundImage: 'url(' + bg + ')', color: "#ffffff" }} >
 						<Div>
+							<h2><img src={logo} alt="" style={{ width: "12rem", maxWidth: "50vw" }} /></h2>
 							<h5>Миссия: “Накрой праздничный стол”</h5>
 							{/* <p>Набери больше всех баллов и&nbsp;получи крутые призы!</p> */}
 						</Div>
