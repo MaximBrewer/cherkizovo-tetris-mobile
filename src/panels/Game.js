@@ -233,9 +233,8 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 												boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
 												borderRadius: "1.5rem",
 												padding: "0.5rem 0.7rem",
-												marginBottom: "0.5rem",
 												maxWidth: "18rem",
-												margin: "0 auto"
+												margin: "0 auto 1rem"
 											}}>
 												<Div className={`control`} style={{ display: "flex", justifyContent: "space-between" }}>
 													<div className={`control-button`} onClick={moveLeft}>
