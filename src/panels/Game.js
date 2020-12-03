@@ -199,7 +199,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 									<Div>
 										<Div>
 											<Div className={`score`} style={{ marginBottom: ".5rem" }}>
-												<h4>ВАШ СЧЁТ:</h4>
+												<h5>ВАШ СЧЁТ:</h5>
 												<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 													<p className={`numbers`}>
 														{pad(ScoreStore.getPoints()).map((item, index) => (
