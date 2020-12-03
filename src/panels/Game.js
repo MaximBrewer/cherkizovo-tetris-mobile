@@ -178,7 +178,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 				<Fragment>
 					<Div className='Game' style={{ textAlign: "center", backgroundImage: 'url(' + bg + ')', color: "#ffffff" }} >
 						<Div>
-							<h4>Миссия: <br /> накрой праздничный стол с Черкизово!</h4>
+							<h5>Миссия: “Накрой праздничный стол”</h5>
 							{/* <p>Набери больше всех баллов и&nbsp;получи крутые призы!</p> */}
 						</Div>
 						<Tetris>
@@ -187,7 +187,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 									<Div>
 										<Div>
 											<Div className={`score`} style={{ marginBottom: ".5rem" }}>
-												<p>Ваш счет:</p>
+												<p>ВАШ СЧЁТ:</p>
 												<div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
 													<p className={`numbers`}>
 														{pad(ScoreStore.getPoints()).map((item, index) => (

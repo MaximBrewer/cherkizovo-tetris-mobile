@@ -48,8 +48,8 @@ const Outro = ({ id, route, fetchedUser, go, bridge, activePanel }) => {
 								}}>
 									<h2>Новый год с</h2>
 									<h2><img src={logo} alt="" style={{ width: "12rem" }} /></h2>
-									<h3>Миссия: <br /> накрой праздничный <br />стол с&nbsp;Черкизово!</h3>
-									<p>Ваш счет:</p>
+									<h3>Миссия: <br />“Накрой праздничный стол с&nbsp;Черкизово!”</h3>
+									<p>ВАШ СЧЁТ:</p>
 									<p className={`numbers`}>
 										{pad(ScoreStore.getPoints()).map((item, index) => (
 											<span key={index}>{item}</span>
