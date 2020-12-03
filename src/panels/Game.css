@@ -182,7 +182,8 @@ table.game-board {
   border-radius: 0.5rem;
   padding: 1.125rem 0.5rem 1.25rem 0.5rem;
   text-align: left;
-  margin-bottom: 1rem;
+  margin: 0px auto 1rem;
+  max-width: 20rem;
 }
 .Game .scores ol {
   padding: 0 0 0 1.5rem;
