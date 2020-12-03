@@ -35,8 +35,6 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 											margin: "1.5rem auto .3rem",
 											fontSize: ".625rem",
 											transform: "rotate(-5.95deg)",
-											maxWidth: "16rem",
-											width: "60%",
 											position: "relative"
 										}}>Попробуй набрать больше баллов,<br />чем Максим Галкин</div>
 										<img src={galkin} alt="Максим Галкин" style={{ display: "block", margin: "0 auto", maxWidth: "20rem", width: "70%", position: "relative", zIndex: 1, top: "-1rem" }} />
