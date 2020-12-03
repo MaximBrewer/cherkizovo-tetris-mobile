@@ -9,11 +9,14 @@ import Pusher from 'pusher-js';
 import AppConstants from '../constants/app-constants';
 import GameStore from '../stores/game-store'
 import BoardStore from '../stores/board-store'
-import './Game.css';
-import bg from '../img/game-bg.jpg';
-import canavsBg from '../img/canvas-bg.png';
 import ScoreStore from '../stores/score-store';
 import { Scrollbars } from 'react-custom-scrollbars-with-mobile';
+
+import './Game.css';
+
+import bg from '../img/game-bg.jpg';
+import logo from '../img/logo-white.png';
+import canavsBg from '../img/canvas-bg.png';
 
 const axios = require('axios');
 
