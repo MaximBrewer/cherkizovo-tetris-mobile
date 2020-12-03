@@ -45,6 +45,10 @@ body {
 .Portrait svg {
     stroke: #fff;
     fill: #fff;
+    width: "5rem";
+    max-width: "20vw";
+    display: block;
+    margin: 0 auto;
 }
 
 @media (orientation: landscape) {
