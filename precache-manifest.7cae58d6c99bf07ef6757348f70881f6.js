@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f88f0849c4468251e4060b181f76ca6",
+    "revision": "6131a0fd557d97c59858cff3d1b63b90",
     "url": "/cherkizovo-tetris-mobile/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css"
   },
   {
-    "revision": "f3e335a67a517c989e87",
+    "revision": "3e11fbafa9da8751bd0b",
     "url": "/cherkizovo-tetris-mobile/static/css/main.ef53a49c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cherkizovo-tetris-mobile/static/js/2.43be7aa2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3e335a67a517c989e87",
-    "url": "/cherkizovo-tetris-mobile/static/js/main.bded5dce.chunk.js"
+    "revision": "3e11fbafa9da8751bd0b",
+    "url": "/cherkizovo-tetris-mobile/static/js/main.cd9aad20.chunk.js"
   },
   {
     "revision": "1a9787e7ec2b1e994931",
