@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/cherkizovo-tetris-mobile/static/css/main.009fc9a4.chunk.css",
-    "main.js": "/cherkizovo-tetris-mobile/static/js/main.4aa846ba.chunk.js",
-    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.4aa846ba.chunk.js.map",
+    "main.css": "/cherkizovo-tetris-mobile/static/css/main.7a5e875b.chunk.css",
+    "main.js": "/cherkizovo-tetris-mobile/static/js/main.b37293d1.chunk.js",
+    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.b37293d1.chunk.js.map",
     "runtime-main.js": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js",
     "runtime-main.js.map": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js.map",
     "static/css/2.cdee455b.chunk.css": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css",
-    "static/js/2.b629bf02.chunk.js": "/cherkizovo-tetris-mobile/static/js/2.b629bf02.chunk.js",
-    "static/js/2.b629bf02.chunk.js.map": "/cherkizovo-tetris-mobile/static/js/2.b629bf02.chunk.js.map",
+    "static/js/2.d0981fdc.chunk.js": "/cherkizovo-tetris-mobile/static/js/2.d0981fdc.chunk.js",
+    "static/js/2.d0981fdc.chunk.js.map": "/cherkizovo-tetris-mobile/static/js/2.d0981fdc.chunk.js.map",
     "index.html": "/cherkizovo-tetris-mobile/index.html",
-    "precache-manifest.497e562b1c0f22cd56674a0ad5a5fd4c.js": "/cherkizovo-tetris-mobile/precache-manifest.497e562b1c0f22cd56674a0ad5a5fd4c.js",
+    "precache-manifest.5e1d641de4848184041c5b8ed0998bb4.js": "/cherkizovo-tetris-mobile/precache-manifest.5e1d641de4848184041c5b8ed0998bb4.js",
     "service-worker.js": "/cherkizovo-tetris-mobile/service-worker.js",
     "static/css/2.cdee455b.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css.map",
-    "static/css/main.009fc9a4.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.009fc9a4.chunk.css.map",
-    "static/js/2.b629bf02.chunk.js.LICENSE.txt": "/cherkizovo-tetris-mobile/static/js/2.b629bf02.chunk.js.LICENSE.txt",
+    "static/css/main.7a5e875b.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.7a5e875b.chunk.css.map",
+    "static/js/2.d0981fdc.chunk.js.LICENSE.txt": "/cherkizovo-tetris-mobile/static/js/2.d0981fdc.chunk.js.LICENSE.txt",
     "static/media/canvas-bg.png": "/cherkizovo-tetris-mobile/static/media/canvas-bg.a1b5d90d.png",
     "static/media/galkin.png": "/cherkizovo-tetris-mobile/static/media/galkin.db851294.png",
     "static/media/game-bg.jpg": "/cherkizovo-tetris-mobile/static/media/game-bg.1089252f.jpg",
     "static/media/intro-bg.jpg": "/cherkizovo-tetris-mobile/static/media/intro-bg.4ba1e84e.jpg",
     "static/media/logo-white.png": "/cherkizovo-tetris-mobile/static/media/logo-white.858e55bb.png",
     "static/media/music.mp3": "/cherkizovo-tetris-mobile/static/media/music.18ca30f9.mp3",
+    "static/media/rotate-device.svg": "/cherkizovo-tetris-mobile/static/media/rotate-device.54e18536.svg",
     "static/media/woop.mp3": "/cherkizovo-tetris-mobile/static/media/woop.e3c35f09.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.44675682.js",
     "static/css/2.cdee455b.chunk.css",
-    "static/js/2.b629bf02.chunk.js",
-    "static/css/main.009fc9a4.chunk.css",
-    "static/js/main.4aa846ba.chunk.js"
+    "static/js/2.d0981fdc.chunk.js",
+    "static/css/main.7a5e875b.chunk.css",
+    "static/js/main.b37293d1.chunk.js"
   ]
 }
