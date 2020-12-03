@@ -40,7 +40,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(/cherkizovo-tetris-mobile/static/media/portrait-bg.e4f61210.jpg) no-repeat 0 0 / cover;
+    background: url(./img/portrait-bg.jpg) no-repeat 0 0 / cover;
 }
 .Portrait svg {
     stroke: #fff;
