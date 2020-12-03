@@ -1,7 +1,7 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
-.btn-red, 
+.btn-red,
 .btn-blue {
     outline: none !important;
     background: #aa2223;
@@ -11,18 +11,18 @@ body {
     border-radius: 1.2rem;
     position: relative;
     padding: 0.5rem 0.675rem;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
     min-width: 12rem;
     cursor: pointer;
 }
-.btn-red:hover, 
+.btn-red:hover,
 .btn-blue:hover {
     background: #631313;
 }
-.btn-red:active, 
+.btn-red:active,
 .btn-blue:active {
     top: 1px;
 }
@@ -31,4 +31,22 @@ body {
 }
 .btn-blue:hover {
     background: #1d2e8f;
+}
+.Portrait {
+    display: none;
+}
+
+@media (orientation: landscape) {
+    .Intro {
+        display: none;
+    }
+    .Outro {
+        display: none;
+    }
+    .Game {
+        display: none;
+    }
+    .Portrait {
+        display: block;
+    }
 }

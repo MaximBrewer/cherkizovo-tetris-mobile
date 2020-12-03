@@ -7,6 +7,7 @@ import ScoreStore from '../stores/score-store';
 import './Outro.css';
 import bg from '../img/intro-bg.jpg';
 import logo from '../img/logo-white.png';
+import rotateDevice from '../img/rotate-device.png';
 
 const axios = require('axios');
 
@@ -39,6 +40,10 @@ const Outro = ({ id, route, fetchedUser, go, bridge, activePanel }) => {
 			{fetchedUser &&
 				<Fragment>
 					<div style={{ maxHeight: "100vh", overflow: "hidden" }}>
+						<Div className="Portrait">
+							<div><img src={rotateDevice} alt="" style={{ width: "5rem", maxWidth: "20vw" }} /></div>
+							<h3>Поверните устройство чтоб продолжить игру!</h3>
+						</Div>
 						<Div className='Outro'>
 							<div style={{ backgroundImage: 'url(' + bg + ')' }}>
 								<Div style={{

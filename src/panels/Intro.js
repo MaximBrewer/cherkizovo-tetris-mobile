@@ -6,6 +6,7 @@ import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import './Intro.css';
 import bg from '../img/intro-bg.jpg';
 import logo from '../img/logo-white.png';
+import rotateDevice from '../img/rotate-device.png';
 import galkin from '../img/galkin.png';
 
 const Intro = ({ id, go, route, fetchedUser }) => {
@@ -14,6 +15,10 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 			{fetchedUser &&
 				<Fragment>
 					<div style={{ maxHeight: "100vh", overflow: "hidden" }}>
+						<Div className="Portrait">
+							<div><img src={rotateDevice} alt="" style={{ width: "5rem", maxWidth: "20vw" }} /></div>
+							<h3>Поверните устройство чтоб продолжить игру!</h3>
+						</Div>
 						<Div className='Intro'>
 							<div style={{ backgroundImage: 'url(' + bg + ')' }}>
 								<Div style={{

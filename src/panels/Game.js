@@ -17,6 +17,7 @@ import './Game.css';
 import bg from '../img/game-bg.jpg';
 import logo from '../img/logo-white.png';
 import canavsBg from '../img/canvas-bg.png';
+import rotateDevice from '../img/rotate-device.png';
 
 const axios = require('axios');
 
@@ -179,6 +180,10 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 		<Panel id={id}>
 			{fetchedUser &&
 				<Fragment>
+					<Div className="Portrait">
+						<div><img src={rotateDevice} alt="" style={{ width: "5rem", maxWidth: "20vw" }} /></div>
+						<h3>Поверните устройство чтоб продолжить игру!</h3>
+					</Div>
 					<Div className='Game' style={{ textAlign: "center", backgroundImage: 'url(' + bg + ')', color: "#ffffff" }} >
 						<Div>
 							<div><img src={logo} alt="" style={{ width: "10rem", maxWidth: "50vw", display: "block", margin: "0 auto .5rem" }} /></div>
