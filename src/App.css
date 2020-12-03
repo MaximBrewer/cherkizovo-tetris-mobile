@@ -34,6 +34,7 @@ body {
 }
 .Portrait {
     display: none;
+    background: url(./img/portrait-bg.jpg) no-repeat cover/center;
 }
 
 @media (orientation: landscape) {
