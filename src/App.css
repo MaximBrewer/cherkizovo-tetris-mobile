@@ -34,6 +34,9 @@ body {
 }
 .Portrait {
     display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     background: url(./img/portrait-bg.jpg) no-repeat center/cover;
 }
 
@@ -48,6 +51,6 @@ body {
         display: none;
     }
     .Portrait {
-        display: block;
+        display: flex;
     }
 }
