@@ -252,7 +252,7 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 													</div>
 												</Div>
 											</Div>
-											<p>Лучшие игроки</p>
+											<h5>Лучшие игроки</h5>
 											<Div className={`scores`}>
 												<Scrollbars style={{ height: 128 }}
 													renderView={renderView}
