@@ -34,10 +34,17 @@ body {
 }
 .Portrait {
     display: none;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    background: url(./img/portrait-bg.jpg) no-repeat center/cover;
+    flex-direction: column;
+    background: url(/cherkizovo-tetris-mobile/static/media/portrait-bg.e4f61210.jpg) no-repeat 0 0 / cover;
+}
+.Portrait svg {
+    stroke: #fff;
+    fill: #fff;
 }
 
 @media (orientation: landscape) {
