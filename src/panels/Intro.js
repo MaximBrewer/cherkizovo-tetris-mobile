@@ -30,6 +30,8 @@ const Intro = ({ id, go, route, fetchedUser }) => {
 											background: "#AA2223",
 											border: "2px solid #FFFFFF",
 											borderRadius: "3px",
+											margin: "1rem auto 0",
+											fontSize: ".625rem",
 											transform: "rotate(-5.95deg)",
 											maxWidth: "16rem",
 											width: "60%",
