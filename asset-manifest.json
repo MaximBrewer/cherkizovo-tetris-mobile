@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cherkizovo-tetris-mobile/static/css/main.71aa7ebf.chunk.css",
-    "main.js": "/cherkizovo-tetris-mobile/static/js/main.79d1a045.chunk.js",
-    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.79d1a045.chunk.js.map",
+    "main.css": "/cherkizovo-tetris-mobile/static/css/main.b6429eb8.chunk.css",
+    "main.js": "/cherkizovo-tetris-mobile/static/js/main.18dd9402.chunk.js",
+    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.18dd9402.chunk.js.map",
     "runtime-main.js": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js",
     "runtime-main.js.map": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js.map",
     "static/css/2.cdee455b.chunk.css": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css",
     "static/js/2.43be7aa2.chunk.js": "/cherkizovo-tetris-mobile/static/js/2.43be7aa2.chunk.js",
     "static/js/2.43be7aa2.chunk.js.map": "/cherkizovo-tetris-mobile/static/js/2.43be7aa2.chunk.js.map",
     "index.html": "/cherkizovo-tetris-mobile/index.html",
-    "precache-manifest.6aa7dc938bc79acbe3ab95ef6d2a6a10.js": "/cherkizovo-tetris-mobile/precache-manifest.6aa7dc938bc79acbe3ab95ef6d2a6a10.js",
+    "precache-manifest.e261e97d7f208aa03fef70b4e4405a63.js": "/cherkizovo-tetris-mobile/precache-manifest.e261e97d7f208aa03fef70b4e4405a63.js",
     "service-worker.js": "/cherkizovo-tetris-mobile/service-worker.js",
     "static/css/2.cdee455b.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css.map",
-    "static/css/main.71aa7ebf.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.71aa7ebf.chunk.css.map",
+    "static/css/main.b6429eb8.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.b6429eb8.chunk.css.map",
     "static/js/2.43be7aa2.chunk.js.LICENSE.txt": "/cherkizovo-tetris-mobile/static/js/2.43be7aa2.chunk.js.LICENSE.txt",
     "static/media/canvas-bg.png": "/cherkizovo-tetris-mobile/static/media/canvas-bg.a1b5d90d.png",
     "static/media/galkin.png": "/cherkizovo-tetris-mobile/static/media/galkin.db851294.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.44675682.js",
     "static/css/2.cdee455b.chunk.css",
     "static/js/2.43be7aa2.chunk.js",
-    "static/css/main.71aa7ebf.chunk.css",
-    "static/js/main.79d1a045.chunk.js"
+    "static/css/main.b6429eb8.chunk.css",
+    "static/js/main.18dd9402.chunk.js"
   ]
 }
