@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cherkizovo-tetris-mobile/precache-manifest.d94069794df10f61e17bd8a084087796.js"
+  "/cherkizovo-tetris-mobile/precache-manifest.0fa6452764bbb60a74883a3128674582.js"
 );
 
 self.addEventListener('message', (event) => {
