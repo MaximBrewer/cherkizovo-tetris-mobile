@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cherkizovo-tetris-mobile/static/css/main.261bb97c.chunk.css",
-    "main.js": "/cherkizovo-tetris-mobile/static/js/main.7e48c5de.chunk.js",
-    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.7e48c5de.chunk.js.map",
+    "main.js": "/cherkizovo-tetris-mobile/static/js/main.8bb9dcf5.chunk.js",
+    "main.js.map": "/cherkizovo-tetris-mobile/static/js/main.8bb9dcf5.chunk.js.map",
     "runtime-main.js": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js",
     "runtime-main.js.map": "/cherkizovo-tetris-mobile/static/js/runtime-main.44675682.js.map",
     "static/css/2.cdee455b.chunk.css": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css",
     "static/js/2.fa540936.chunk.js": "/cherkizovo-tetris-mobile/static/js/2.fa540936.chunk.js",
     "static/js/2.fa540936.chunk.js.map": "/cherkizovo-tetris-mobile/static/js/2.fa540936.chunk.js.map",
     "index.html": "/cherkizovo-tetris-mobile/index.html",
-    "precache-manifest.c87e3374f77ea2a5c11eb07e9e6bfa04.js": "/cherkizovo-tetris-mobile/precache-manifest.c87e3374f77ea2a5c11eb07e9e6bfa04.js",
+    "precache-manifest.d94069794df10f61e17bd8a084087796.js": "/cherkizovo-tetris-mobile/precache-manifest.d94069794df10f61e17bd8a084087796.js",
     "service-worker.js": "/cherkizovo-tetris-mobile/service-worker.js",
     "static/css/2.cdee455b.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/2.cdee455b.chunk.css.map",
     "static/css/main.261bb97c.chunk.css.map": "/cherkizovo-tetris-mobile/static/css/main.261bb97c.chunk.css.map",
@@ -19,7 +19,7 @@
     "static/media/game-bg.jpg": "/cherkizovo-tetris-mobile/static/media/game-bg.1089252f.jpg",
     "static/media/intro-bg.jpg": "/cherkizovo-tetris-mobile/static/media/intro-bg.4ba1e84e.jpg",
     "static/media/logo-white.png": "/cherkizovo-tetris-mobile/static/media/logo-white.858e55bb.png",
-    "static/media/music.mp3": "/cherkizovo-tetris-mobile/static/media/music.18ca30f9.mp3",
+    "static/media/music.mp3": "/cherkizovo-tetris-mobile/static/media/music.36dc55fb.mp3",
     "static/media/App.css": "/cherkizovo-tetris-mobile/static/media/portrait-bg.e4f61210.jpg",
     "static/media/woop.mp3": "/cherkizovo-tetris-mobile/static/media/woop.e3c35f09.mp3"
   },
@@ -28,6 +28,6 @@
     "static/css/2.cdee455b.chunk.css",
     "static/js/2.fa540936.chunk.js",
     "static/css/main.261bb97c.chunk.css",
-    "static/js/main.7e48c5de.chunk.js"
+    "static/js/main.8bb9dcf5.chunk.js"
   ]
 }
