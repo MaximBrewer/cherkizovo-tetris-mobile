@@ -39,7 +39,7 @@ BoardStore.on(events.LINE_CLEARED, (additionalLines) => {
   GameStore.faster()
   // what's this called?
   if (additionalLines === 4) {
-    ScoreStore.addPoints(pointsPerLine * 2);
+    ScoreStore.addPoints(pointsPerLine * 8);
   } else {
     ScoreStore.addPoints(additionalLines * pointsPerLine);
   }
