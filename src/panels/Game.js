@@ -237,16 +237,16 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 												margin: "0 auto 1rem"
 											}}>
 												<Div className={`control`} style={{ display: "flex", justifyContent: "space-between" }}>
-													<div className={`control-button`} onClick={moveLeft}>
+													<div className={`control-button mv-left`} onClick={moveLeft}>
 														<div><Left style={{ display: "block", width: "100%" }} /></div>
 													</div>
-													<div className={`control-button`} onClick={rotate}>
+													<div className={`control-button mv-rotate`} onClick={rotate}>
 														<div><Rotate style={{ display: "block", width: "100%" }} /></div>
 													</div>
-													<div className={`control-button`} onClick={moveRight}>
+													<div className={`control-button mv-right`} onClick={moveRight}>
 														<div><Right style={{ display: "block", width: "100%" }} /></div>
 													</div>
-													<div className={`control-button`} onClick={drop}>
+													<div className={`control-button mv-drop`} onClick={drop}>
 														<div><Drop style={{ display: "block", width: "100%" }} /></div>
 													</div>
 												</Div>
