@@ -243,11 +243,11 @@ const Game = ({ id, go, route, fetchedUser, activePanel }) => {
 													<div className={`control-button`} onClick={rotate}>
 														<div><Rotate style={{ display: "block", width: "100%" }} /></div>
 													</div>
-													<div className={`control-button`} onClick={drop}>
-														<div><Drop style={{ display: "block", width: "100%" }} /></div>
-													</div>
 													<div className={`control-button`} onClick={moveRight}>
 														<div><Right style={{ display: "block", width: "100%" }} /></div>
+													</div>
+													<div className={`control-button`} onClick={drop}>
+														<div><Drop style={{ display: "block", width: "100%" }} /></div>
 													</div>
 												</Div>
 											</Div>
